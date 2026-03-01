@@ -5,7 +5,7 @@
 Open the Docker container from the **[robotics_lpnu](https://github.com/RybOlya/robotics_lpnu/tree/master)** repository.
 
 
-> **Note:** Navigate to the `robotics_lpnu/` folder and run:
+> **Note:** Navigate to the `robotics_lpnu/` folder (`cd robotics_lpnu/`) and run:
 >
 > ```bash
 > ./scripts/cmd run
@@ -41,7 +41,7 @@ source install/setup.bash
 ### 4. Launch Gazebo + Bridge + RViz2
 
 ```bash
-cd /opt/ws
+cd /opt/ws/src/code/Robotics_Lab_2
 source install/setup.bash
 ros2 launch lab2 gazebo_ros2.launch.py
 ```
