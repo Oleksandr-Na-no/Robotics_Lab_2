@@ -1,0 +1,27 @@
+[0.634s] Invoking command in '/opt/ws/src/code/lab2': PYTHONPATH=/opt/ws/src/code/lab2/build/lab2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/opt/ws/src/code/lab2/install/lab2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/lab2 build --build-base /opt/ws/src/code/lab2/build/lab2/build install --record /opt/ws/src/code/lab2/build/lab2/install.log --single-version-externally-managed install_data
+[0.841s] running egg_info
+[0.918s] writing build/lab2/lab2.egg-info/PKG-INFO
+[0.918s] writing dependency_links to build/lab2/lab2.egg-info/dependency_links.txt
+[0.918s] writing entry points to build/lab2/lab2.egg-info/entry_points.txt
+[0.918s] writing requirements to build/lab2/lab2.egg-info/requires.txt
+[0.918s] writing top-level names to build/lab2/lab2.egg-info/top_level.txt
+[0.948s] reading manifest file 'build/lab2/lab2.egg-info/SOURCES.txt'
+[0.948s] adding license file 'LICENSE'
+[0.949s] writing manifest file 'build/lab2/lab2.egg-info/SOURCES.txt'
+[0.949s] running build
+[0.949s] running build_py
+[0.949s] copying lab2/lidar_subscriber.py -> /opt/ws/src/code/lab2/build/lab2/build/lib/lab2
+[0.950s] running install
+[0.954s] running install_lib
+[0.968s] copying /opt/ws/src/code/lab2/build/lab2/build/lib/lab2/lidar_subscriber.py -> /opt/ws/src/code/lab2/install/lab2/lib/python3.12/site-packages/lab2
+[0.969s] byte-compiling /opt/ws/src/code/lab2/install/lab2/lib/python3.12/site-packages/lab2/lidar_subscriber.py to lidar_subscriber.cpython-312.pyc
+[0.970s] running install_data
+[0.970s] copying config/robot.rviz -> /opt/ws/src/code/lab2/install/lab2/share/lab2/config
+[0.970s] running install_egg_info
+[0.988s] removing '/opt/ws/src/code/lab2/install/lab2/lib/python3.12/site-packages/lab2-0.0.1-py3.12.egg-info' (and everything under it)
+[0.988s] Copying build/lab2/lab2.egg-info to /opt/ws/src/code/lab2/install/lab2/lib/python3.12/site-packages/lab2-0.0.1-py3.12.egg-info
+[0.990s] running install_scripts
+[1.036s] Installing lidar_subscriber script to /opt/ws/src/code/lab2/install/lab2/lib/lab2
+[1.036s] Installing robot_controller script to /opt/ws/src/code/lab2/install/lab2/lib/lab2
+[1.037s] writing list of installed files to '/opt/ws/src/code/lab2/build/lab2/install.log'
+[1.060s] Invoked command in '/opt/ws/src/code/lab2' returned '0': PYTHONPATH=/opt/ws/src/code/lab2/build/lab2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/opt/ws/src/code/lab2/install/lab2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/lab2 build --build-base /opt/ws/src/code/lab2/build/lab2/build install --record /opt/ws/src/code/lab2/build/lab2/install.log --single-version-externally-managed install_data
