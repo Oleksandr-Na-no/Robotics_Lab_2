@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import os
 from glob import glob
 
-package_name = 'lab2'
+package_name = 'lab_2'
 
 setup(
     name=package_name,
